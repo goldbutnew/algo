@@ -3,7 +3,6 @@ arr = list(map(int, input().split()))
 
 max_block_idx = arr.index(max(arr))
 cnt = 0
-# print(center_idx)
 
 start = arr[0]
 for i in range(1, max_block_idx):
