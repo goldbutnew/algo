@@ -5,9 +5,6 @@ n = int(input())
 
 heap=[]
 
-my_abs = 2147483648  # 2에 31승
-tmp_x = 0
-
 for _ in range(n):
     x = int(sys.stdin.readline())
 
